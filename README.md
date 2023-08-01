@@ -72,3 +72,13 @@ Docker Desktop can be configured to log to Splunk as a one-off via the Docker De
     4a. On Windows ensure daemon.json is placed here: `%programdata%\docker\config\daemon.json`
 
     4b. On macOS ensure daemon.json is placed here: `$HOME/.docker/daemon.json`
+
+
+## Citations and Helpful Links
+* [Built-in logging drivers](https://docs.docker.com/config/containers/logging/configure/#supported-logging-drivers)
+* [Remote logging with Docker](https://docs.docker.com/config/containers/logging/dual-logging/)
+* [Daemon configuration file](https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file)
+* [Configure logging drivers](https://docs.docker.com/config/containers/logging/configure/)
+* [Splunk Docker logging driver](https://docs.docker.com/config/containers/logging/splunk/)
+* [macOS settings](https://docs.docker.com/desktop/settings/mac/)
+* [Windows settings](https://docs.docker.com/desktop/settings/windows/)
